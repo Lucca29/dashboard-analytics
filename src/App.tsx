@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell, ReferenceLine } from 'recharts';
-import { Goal, Users, TrendingUp, Handshake, ShieldCheck, Clock, BookOpen, UserMinus, Bug, Package, DollarSign, UsersRound, CircleGauge } from 'lucide-react';
+import { Goal, Users, TrendingUp, Heart, ShieldCheck, Clock, BookOpen, UserMinus, Bug, Package, DollarSign, User, Gauge } from 'lucide-react';
 
 // Fonction utilitaire pour générer des données réalistes
 const generateData = (startDate, numMonths, initialValue, targetValue, targetDate, fluctuates = true, trendFactor = 0.05) => {
