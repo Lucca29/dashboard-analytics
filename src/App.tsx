@@ -358,7 +358,7 @@ const App = () => {
                 title="Nombre de clients actifs"
                 value={currentActiveClients}
                 unit=""
-                icon={UsersRound}
+                icon={Users}
                 color="text-blue-700"
                 description={`Actuel`}
               />
@@ -374,7 +374,7 @@ const App = () => {
                 title="Dépendance clients majeurs"
                 value={majorClientDependency}
                 unit="%"
-                icon={Handshake}
+                icon={Heart}
                 color="text-orange-700"
                 description={`3 clients majeurs`}
               />
@@ -391,7 +391,7 @@ const App = () => {
                 title="NPS Actuel"
                 value={currentNPS}
                 unit="/10"
-                icon={Handshake}
+                icon={Gauge}
                 color="text-blue-600"
                 description={`Objectif: 8 d'ici mai 2026`}
                 trend={{ type: 'up', value: `+${(currentNPS - 6.5).toFixed(1)}`, unit: '', text: 'depuis le début' }}
