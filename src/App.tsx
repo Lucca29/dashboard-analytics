@@ -307,7 +307,7 @@ const App = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-100 font-sans text-gray-900 p-4 sm:p-6 lg:p-8">
+    <div className="font-sans text-gray-900 p-4 sm:p-6 lg:p-8">
       <style>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
